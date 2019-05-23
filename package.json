@@ -10,6 +10,7 @@
     "antd": "^3.15.0",
     "babel-plugin-import": "^1.11.0",
     "dva": "^2.4.1",
+    "print-js": "^1.0.55",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },

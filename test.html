@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+
+
+  </style>
+</head>
+<body>
+
+<script>
+  // function b(){
+  //   this.p = [1,2,3,4];
+  // }
+  // function a (){
+  //   this.k = 9200;
+  // }
+  // a.prototype = new b();
+  // const c = new a();
+  //
+  // console.log(c.p);       // 12345
+  // c.p.push(5);
+  // c.p = 2;
+  // console.log(c.p);
+  // const d = new a();
+  // console.log(d.p);       //12345
+
+  // function b(){
+  //   this.colors=["red", "blue", "green"];
+  // }
+  // function a(){
+  // }
+  // //继承了SuperType
+  // a.prototype=new b();
+  // var c=new a();
+  // c.colors.push("black");
+  // console.log(c.colors);   //red,blue,green,black
+  //
+  // var d=new a();
+  // console.log(d.colors);    //red,blue,green,black
+
+
+  // let foo = function() { console.log(1) };
+  // (function foo() {
+  //   foo = 10  // 由于foo在函数中只为可读，因此赋值无效
+  //   console.log(foo)
+  // }())
+
+  function fn1(){
+    var a=1;
+    return function fn2() {
+      console.log(a)
+    }
+  }
+  fn1()();
+</script>
+</body>
+</html>
