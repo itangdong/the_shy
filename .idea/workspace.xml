@@ -155,6 +155,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="Less File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
